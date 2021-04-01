@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {	
+body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-weight: 400;    
-	background: #fff;
-	color: #333333;	
+    font-weight: 400;
+    background: #fff;
+    color: #333333;
 }
 
-a:hover {text-decoration: none;}
+a:hover {
+    text-decoration: none;
+}
 
 ul {
     list-style-type: none;
@@ -17,21 +19,21 @@ ul {
 }
 
 input:focus {
-	outline: none;
+    outline: none;
 }
 
 ::selection {
-    color: white; 
+    color: white;
     background: #ff7675;
 }
 
 ::-webkit-selection {
-    color: white; 
+    color: white;
     background: #ff7675;
 }
 
 ::-moz-selection {
-    color: white; 
+    color: white;
     background: #ff7675;
 }
 
@@ -39,7 +41,7 @@ input:focus {
     width: 40px;
     height: 40px;
     border-radius: 20px 20px 0 0;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     display: block;
     text-align: center;
     padding-top: 8px;
@@ -54,12 +56,12 @@ input:focus {
     -moz-transition: 0.2s all ease;
 }
 
-.scrolltotop:hover {   
+.scrolltotop:hover {
     background: #000;
     color: #fff;
-    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
-    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
-    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);   
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
 }
 
 .container {
@@ -84,6 +86,7 @@ input:focus {
     display: inline-block;
     width: 110px;
 }
+
 /*-- p1header area end --*/
 
 /*-- p1hero area start --*/
@@ -134,14 +137,14 @@ input:focus {
 }
 
 .bar {
- width: 135px;
- height: 5px;
- left: calc(50% - 135px/2 + 0.5px);
- bottom: 8px;
+    width: 135px;
+    height: 5px;
+    left: calc(50% - 135px/2 + 0.5px);
+    bottom: 8px;
 
- background: #FFFFFF;
- border-radius: 100px;
- position: absolute;
+    background: #FFFFFF;
+    border-radius: 100px;
+    position: absolute;
 }
 
 /*-- p1hero-link  area end --*/
@@ -206,7 +209,7 @@ input:focus {
     font-weight: 600;
 }
 
-.p2input-block-one  a {
+.p2input-block-one a {
     display: block;
     font-size: 16px;
     font-weight: 600;
@@ -214,7 +217,7 @@ input:focus {
     margin-top: 15px;
 }
 
-.p2input-block-one  {
+.p2input-block-one {
     padding-bottom: 10px;
     border-bottom: 1px solid #fff;
 }
@@ -479,6 +482,12 @@ input:focus {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
+
+    height: 100%;
+    background: red;
+
+
+
 }
 
 .my-watch-block-one-heading-right-one p {
@@ -719,6 +728,12 @@ input:focus {
        Code by kamrul 
    ====================== */
 
+
+
+/* first-visit-page-css-start  */
+
+/* first-visit-mesuare-css-start  */
+
 .first-visit{
     background-image: url(img/first-visit.png);
     background-repeat: no-repeat;
@@ -728,36 +743,200 @@ input:focus {
     position: relative;
 }
 
-.fv-mesuare{
+.fv-mesuare {
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
-
 .fv-mesuare .content h3 {
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;    
+    line-height: 29px;
     color: #FFFFFF;
     margin-bottom: 25px;
 }
-
 
 .fv-mesuare .content p {
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     text-align: justify;
-    
+
     color: #FFFFFF;
 }
+
 .fv-mesuare .content p.first-pera {
     margin-bottom: 40px;
 }
 
+/* first-visit-mesuare-css-end  */
+
+/* fv-watch-area-css-start  */
+.fv-watch-area {
+    padding: 40px 20px;
+}
+
+.fv-watch-area .header h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #242F35;
+}
+
+.fv-watch-area .content {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fv-watch-area .content img {
+    display: inline-block;
+    width: 150px;
+}
+
+.nothing-text {
+    padding: 10px 0;
+}
+
+.fv-watch-btn {
+    text-align: center;
+}
+
+.fv-watch-btn a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F39237;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border: 1px solid #F39237;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 30px rgba(0, 0, 0, 0.15));
+    border-radius: 5px;
+    padding: 15px 20px;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+}
+
+.fv-watch-btn a:hover {
+    background: #F39237;
+    color: #fff;
+}
+
+/* fv-watch-area-css-end  */
+
+
+
+
+/* Add-page-css-start  */
+
+
+
+/* back-to-watch-css-start  */
+.back-to-watch {
+    margin-top: 20px;
+}
+
+.back-to-watch a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    align-items: center;
+    color: #FFFFFF;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+}
+
+.back-to-watch a:hover {
+    opacity: 0.8;
+}
+
+/* back-to-watch-css-end  */
+
+/* add-scan-watch-area-start  */
+
+.add-scan-watch-area {
+    padding: 0 30px;
+}
+
+.small-bar {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.small-bar span {
+    width: 106px;
+    display: inline-block;
+    background: #F0F0F0;
+    border-radius: 5px;
+    height: 7px;
+}
+
+.add-scan-watch {
+    text-align: center;
+}
+
+.add-scan-watch a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #F39237;
+    border-radius: 6px;
+    border: 1px solid #F39237;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.add-scan-watch span {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color: #1335E7;
+    display: inline-block;
+}
+
+.add-scan-watch .small-text {
+    text-align: right;
+}
+
+.or-area {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.or-area span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(36, 47, 53, 0.6);
+    position: relative;
+}
+.or-area span:after{
+    position: absolute;
+    content: "";
+    width: 45%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    height: 1px;
+}
 
 
 
 
 
-
+/* add-scan-watch-area-end  */
