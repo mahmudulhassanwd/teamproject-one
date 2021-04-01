@@ -370,7 +370,9 @@ input:focus {
     login page end
 ==================================*/
 
-
+.babu {
+    opacity: 0;
+}
 
 
 
