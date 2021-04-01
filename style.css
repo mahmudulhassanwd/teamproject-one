@@ -390,3 +390,49 @@ input:focus {
 
 
 
+/* ========================
+       Code by kamrul 
+   ====================== */
+
+.first-visit{
+        background-image: url(img/first-visit.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 25px;
+        position: relative;
+}
+
+.fv-mesuare{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.fv-mesuare .content h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;    
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+
+.fv-mesuare .content p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+}
+.fv-mesuare .content p.first-pera {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
