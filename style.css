@@ -370,6 +370,11 @@ input:focus {
     login page end
 ==================================*/
 
+.login-page{
+    background-color: #fff;
+    width: 100%;
+
+}
 
 
 
